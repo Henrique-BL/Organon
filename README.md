@@ -1,2 +1,2 @@
-# Organon
-Sistema de Gerenciamento de Tarefas desenvolvido para um ambiente desktop, focado na utilização por equipes de desenvolvimento de software
+# organon
+Construção de um software para gerenciamento de tarefas de uma equipe de desenvolvimento

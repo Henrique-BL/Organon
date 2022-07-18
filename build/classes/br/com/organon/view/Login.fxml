@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.organon.controller.LoginController">
+   <left>
+      <VBox alignment="CENTER" prefHeight="425.0" prefWidth="313.0" styleClass="linear-grad" stylesheets="@TelaLogin.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="280.0" fitWidth="235.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+               <image>
+                  <Image url="@img/icon-login.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="V_RESIZE" />
+               </cursor>
+            </ImageView>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="425.0" prefWidth="392.0" spacing="20.0" BorderPane.alignment="CENTER_LEFT">
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <Text fill="#ee534f" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Text>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox alignment="CENTER">
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/icons8_mail_64px_1.png" />
+                           </image>
+                        </ImageView>
+                        <TextField fx:id="txtUser" prefHeight="35.0" prefWidth="245.0" promptText="Email" styleClass="inputs" stylesheets="@EstiloBoard.css" />
+                     </children>
+                  </HBox>
+                  <Label fx:id="txtLoginMessage" alignment="CENTER" prefHeight="18.0" prefWidth="346.0" textFill="RED" />
+                  <HBox alignment="CENTER">
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/icons8_password_60px_1.png" />
+                           </image>
+                        </ImageView>
+                        <PasswordField fx:id="txtSenha" prefHeight="35.0" prefWidth="245.0" promptText="Senha" styleClass="inputs" stylesheets="@EstiloBoard.css" />
+                     </children>
+                  </HBox>
+                  <Label fx:id="loginMessageLabel" alignment="CENTER" textAlignment="JUSTIFY" textFill="RED" />
+                  <HBox alignment="CENTER">
+                     <children>
+                        <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="35.0" prefWidth="80.0" styleClass="button1" stylesheets="@TelaLogin.css" text="Entrar" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+</BorderPane>
