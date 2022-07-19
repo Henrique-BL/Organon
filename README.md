@@ -16,11 +16,11 @@ Sistema de Gerenciamento de Tarefas para um equipe de desenvolvimento de softwar
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaLogin.png" alt="Tela Login">
   <br>
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaProjeto.png" alt="Tela Projeto">
-   Tela de Projeto<br>
+   <br>
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaMainBoard.png" alt="Tela MainBoard">
-  Tela Principal<br>
+  <br>
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaMensagem.png" alt="Tela Mensagem">
-  Tela para envio de mensagens<br>
+  <br>
   
 </p>
 ##Trabalho desenvolvido em grupo.
