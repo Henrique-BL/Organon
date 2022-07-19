@@ -10,9 +10,9 @@ Sistema de Gerenciamento de Tarefas para um equipe de desenvolvimento de softwar
  - filtragem das tarefas em três níveis (responsável, importância e sessão) separados ou combinados  
 
 <p align='center'>
-  <b>Tela<b>
- 
-  ![Tela Login](https://github.com/Henrique-BL/Organon/blob/main/telas/TelaLogin.png)
+  <b>Telas<b>
+ <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaLogin.png" alt="Tela Login">
+
   
   ![Tela Projeto](https://github.com/Henrique-BL/Organon/blob/main/telas/TelaProjeto.png)
   
