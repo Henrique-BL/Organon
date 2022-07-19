@@ -11,16 +11,16 @@ Sistema de Gerenciamento de Tarefas para um equipe de desenvolvimento de softwar
  - filtragem das tarefas;
  - envio de mensagens para e-mail dos desenvolvedores envolvidos em um projeto;
 
-<div align='center'>
+<p align='center' width="100%">
   <b>Telas<b>   
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaLogin.png" alt="Tela Login">
-   Tela de Login
+  <br>
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaProjeto.png" alt="Tela Projeto">
-   Tela de Projeto
+   Tela de Projeto<br>
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaMainBoard.png" alt="Tela MainBoard">
-  Tela Principal
+  Tela Principal<br>
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaMensagem.png" alt="Tela Mensagem">
-  Tela para envio de mensagens
+  Tela para envio de mensagens<br>
   
-</div>
+</p>
 ##Trabalho desenvolvido em grupo.
