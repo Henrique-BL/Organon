@@ -3,7 +3,7 @@ Sistema de Gerenciamento de Tarefas para um equipe de desenvolvimento de softwar
 
 <p align='center'>
   **Telas**
-  
+ 
   ![Tela Login](https://github.com/Henrique-BL/Organon/blob/main/telas/TelaLogin.png)
   
   ![Tela Projeto](https://github.com/Henrique-BL/Organon/blob/main/telas/TelaProjeto.png)
