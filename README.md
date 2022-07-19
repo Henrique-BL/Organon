@@ -14,7 +14,7 @@ Sistema de Gerenciamento de Tarefas para um equipe de desenvolvimento de softwar
  
   <b>Telas<b>   
    
-  <img width="50%" src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaLogin.png" alt="Tela Login">
+  <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaLogin.png" alt="Tela Login">
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaProjeto.png" alt="Tela Projeto">
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaMainBoard.png" alt="Tela MainBoard">
   <img src="https://github.com/Henrique-BL/Organon/blob/main/telas/TelaMensagem.png" alt="Tela Mensagem">
