@@ -8,7 +8,7 @@ Sistema de Gerenciamento de Tarefas para um equipe de desenvolvimento de softwar
   
   ![Tela Projeto](https://github.com/Henrique-BL/Organon/blob/main/telas/TelaProjeto.png)
   
-  ![Tela Principal](https://github.com/Henrique-BL/Organon/blob/main/telas/TelaPrincipal.png)
+  ![Tela Principal](https://github.com/Henrique-BL/Organon/blob/main/telas/TelaMainBoard.png)
   
   ![Tela Mensagem](https://github.com/Henrique-BL/Organon/blob/main/telas/TelaMensagem.png)
   
