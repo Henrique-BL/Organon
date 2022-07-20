@@ -24,4 +24,5 @@ Sistema de Gerenciamento de Tarefas para um equipe de desenvolvimento de softwar
   <br>
   
 </p>
-##Trabalho desenvolvido em grupo.
+## Créditos
+Trabalho desenvolvido em grupo para disciplina Oficina de Integração ministrada pelo professor Eduardo Cotrin Teixeira na Universidade Tecnológica Federal do Paraná.
