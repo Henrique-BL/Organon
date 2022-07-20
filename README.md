@@ -10,6 +10,11 @@ Sistema de Gerenciamento de Tarefas para um equipe de desenvolvimento de softwar
  - visualização global das tarefas de todos os projetos;
  - filtragem das tarefas;
  - envio de mensagens para e-mail dos desenvolvedores envolvidos em um projeto;
+ 
+ **Especifícações**
+ - Java
+ - JavaFX18
+ - Banco MySQL
 
 <p align='center' width="100%">
   <b>Telas<b>   
