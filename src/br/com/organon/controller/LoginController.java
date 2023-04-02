@@ -46,7 +46,7 @@ public class LoginController implements Initializable {
     @FXML
     private Label loginMessageLabel;
     
-    //Carrega TelaBoard caso email e senha valido   
+    
     @FXML
     public void btnLoginOnAction(ActionEvent e) throws IOException{
            
@@ -66,7 +66,7 @@ public class LoginController implements Initializable {
         }
         
     }
-    //Verifica validade dos dados e retorna 1 para confirmar ou 0
+    
     public int validateLogin(){
         try{
             email =  txtUser.getText();

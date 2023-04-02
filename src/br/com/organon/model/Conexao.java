@@ -2,11 +2,11 @@ package br.com.organon.model;
 import java.sql.*;
 
 public class Conexao {
-        //XPGTjnIXaa
+        
         private static final String driver = "com.mysql.cj.jdbc.Driver";
-        private static final String url = "jdbc:mysql://localhost:3306/sql10498785";
-        private static final String user = "root";
-        private static final String pass = "";
+        private static final String url = "jdbc:mysql://sql10.freesqldatabase.com:3306/sql10498785";
+        private static final String user = "sql10498785";
+        private static final String pass = "XPGTjnIXaa";
     
         public static Connection conexao(){
             Connection  conn = null;

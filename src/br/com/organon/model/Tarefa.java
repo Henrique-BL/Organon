@@ -1,7 +1,11 @@
 
 package br.com.organon.model;
 
+import java.lang.Object;
 import java.time.LocalDate;
+import java.util.Date;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class Tarefa {
     private String nome;

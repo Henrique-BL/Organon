@@ -14,7 +14,7 @@ import java.util.Properties;
 
 public class MensagemDAO {
     
-    //Retorna 1 caso mensagem enviada com sucesso e 0 caso contrario
+    
     public static int enviar(Gestor gestor,Mensagem mensagem){
         
         try{
@@ -62,7 +62,6 @@ public class MensagemDAO {
         return null;
         
     }
-    //Monta o array com todos os emails dos desenvolvedores 
     public static InternetAddress[] prepararDestino(ArrayList<String> destino){
         try{
             InternetAddress[] desList = new InternetAddress[destino.size()];

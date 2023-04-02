@@ -1,5 +1,7 @@
 package br.com.organon.model;
 import java.sql.*;
+import br.com.organon.model.Conexao;
+import br.com.organon.model.Tarefa;
 import java.util.ArrayList;
 import java.util.Arrays;
 

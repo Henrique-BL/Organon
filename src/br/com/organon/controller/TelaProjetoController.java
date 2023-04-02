@@ -2,6 +2,8 @@ package br.com.organon.controller;
 
 import br.com.organon.model.ProjetoDAO;
 import br.com.organon.model.Projeto;
+import br.com.organon.model.Tarefa;
+import br.com.organon.view.MainFX;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -16,6 +18,11 @@ import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
+/**
+ * FXML Controller class
+ * Controla a tela de criaÃ§Ã£o de projeto
+ * @author Welyson
+ */
 public class TelaProjetoController implements Initializable {
     ProjetoDAO pDAO = new ProjetoDAO();
     @FXML

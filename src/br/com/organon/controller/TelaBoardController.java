@@ -6,6 +6,7 @@ import br.com.organon.model.ProjetoDAO;
 import br.com.organon.model.SessaoDAO;
 import br.com.organon.model.Tarefa;
 import br.com.organon.model.TarefaDAO;
+import br.com.organon.view.MainFX;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -129,7 +130,7 @@ public class TelaBoardController implements Initializable  {
         //Define o visual caso seja dev ou gestor
         visual();
     } 
-    //Ao clicar no botao a tarefa é criada no banco
+    //Ao clicar no botÃ£o salvar a tarefa Ã© criada no banco
     @FXML
     public void criar(ActionEvent e){
         try{
@@ -174,7 +175,6 @@ public class TelaBoardController implements Initializable  {
         }
 
     }
-    //Atualiza informações da tarefa no banco
     @FXML
     public void editar(ActionEvent e){
         try{
@@ -210,7 +210,6 @@ public class TelaBoardController implements Initializable  {
             alert.showAndWait();            
         }        
     }
-    //Exclui a tarefa
     @FXML
     public void excluir(ActionEvent e){
         try{
@@ -241,7 +240,7 @@ public class TelaBoardController implements Initializable  {
             alert.showAndWait();            
         } 
     }
-    //Abre a tela de gerencia dos projetos
+    //FunÃ§Ã£o que Ã© chamada ao clicar no botÃ£o CRIAR PROJETO na interface
     @FXML
     void abrirCriadorProjeto(ActionEvent event) throws IOException {
         //Cria e chama a interface de criaÃ§Ã£o de projeto
@@ -254,7 +253,7 @@ public class TelaBoardController implements Initializable  {
         stage.show();  
     }
     @FXML
-    //Chama a tela de envio de mensagens
+    //Chama a tela de criar tarefa
     void abrirTelaMensagem(ActionEvent event) throws IOException {        
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/br/com/organon/view/TelaMensagem.fxml"));
         Parent root1 = (Parent) fxmlLoader.load();
@@ -262,7 +261,7 @@ public class TelaBoardController implements Initializable  {
         stage.setScene(new Scene(root1));  
         stage.show();
     }
-   //Carrega tarefas da sessao fazer
+    //MÃ©todos responsÃ¡veis pela mudanÃ§a na exibiÃ§Ã£o das tarefas
     @FXML
     public void btnSessaoFazer(ActionEvent e){
         ArrayList<Tarefa> tars = tarDAO.buscar_Sessao(1); 
@@ -274,7 +273,6 @@ public class TelaBoardController implements Initializable  {
 
     }
     @FXML 
-   //Carrega tarefas da sessao fazendo
     public void btnSessaoFazendo(ActionEvent e){        
         carregaTarefas(tarFiltro(tarDAO.buscar_Sessao(2)));
         ultimaSessao = 2;
@@ -283,7 +281,6 @@ public class TelaBoardController implements Initializable  {
         labelSessao.setText("Fazendo");
     }
     @FXML 
-   //Carrega tarefas da sessao feito
     public void btnSessaoFeito(ActionEvent e){
         carregaTarefas(tarFiltro(tarDAO.buscar_Sessao(3)));
         ultimaSessao = 3;
@@ -292,7 +289,6 @@ public class TelaBoardController implements Initializable  {
         //troca o nome do label da sessÃ£o
         labelSessao.setText("Feito");
     }
-   //Carrega tarefas da sessao arquivado
     @FXML 
     public void btnSessaoArquivado(ActionEvent e){
         carregaTarefas(tarFiltro(tarDAO.buscar_Sessao(4)));
@@ -381,8 +377,8 @@ public class TelaBoardController implements Initializable  {
             }
         } 
     }
-   //Metodos de busca usado nos combobox
-   //Busca o id do responsavel  selecionado no combobox usando o nome
+   //MÃ©todos de busca usado nos combobox
+   //Busca o id do responsÃ¡vel  selecionado no combobox
     public int buscarNomeResponsavel(String nome){
         ArrayList<Desenvolvedor> emp = empDAO.buscarTodos();
         try{
@@ -398,7 +394,7 @@ public class TelaBoardController implements Initializable  {
         
         return 0;
     }
-   //Busca o id do Projeto  selecionado no combobox usando o nome
+   //Busca o id do Projeto  selecionado no combobox
   
     public int buscarNomeProjeto(String projNome){
         ArrayList<Projeto> listP = pDAO.buscarTodos();
@@ -415,7 +411,7 @@ public class TelaBoardController implements Initializable  {
         
         return 0;
     } 
-    //Metodos para alimentacao dos comobox no initialize
+    //MÃ©todos para alimentacao dos comobox no initialize
     //Cria lista com nome de Projetos para alimentar o combobox
     public ArrayList<String> getNomeProjeto(){
         ArrayList<Projeto> projetos = pDAO.buscarTodos();
@@ -504,7 +500,7 @@ public class TelaBoardController implements Initializable  {
 
         
     }
-    //Metodos de exibicao dos dados
+    //MÃ©todos de exibiÃ§Ã£o dos dados
     //Exibe dados das tarefas - utilizado pelo ObjetoTarefaController 
     public void exibirDadosTarefa(Tarefa tar){
        
@@ -567,7 +563,7 @@ public class TelaBoardController implements Initializable  {
         cbProjeto.getItems().clear();
         cbProjeto.getItems().addAll(getNomeProjeto());
     }
-    //Metodos de limpeza
+    //MÃ©todos de limpeza
     //Limpa campos das tarefas
     public void limparPainel(){
         txtNomeTarefa.setText("");

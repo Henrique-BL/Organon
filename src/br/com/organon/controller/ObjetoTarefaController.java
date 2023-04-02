@@ -5,10 +5,13 @@ import br.com.organon.model.EmpregadoDAO;
 import br.com.organon.model.ProjetoDAO;
 import br.com.organon.model.Tarefa;
 import br.com.organon.model.TarefaDAO;
+import br.com.organon.view.MainFX;
 import java.io.IOException;
 import java.net.URL;
+import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -32,7 +35,6 @@ public class ObjetoTarefaController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
-    //Adiciona os dados nos campos do objeto tarefa
     public void adc(Tarefa tar){
         DateTimeFormatter formatador = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         
@@ -41,7 +43,6 @@ public class ObjetoTarefaController implements Initializable {
         lblNomeResponsavel.setText(empDAO.buscar(tar.getResponsavel()).getNome());
         lblDataTermino.setText(tar.getDataFim().format(formatador));        
     }
-    //Verifica clique na tarefa e chama métodos da TelaBoardController
     @FXML
     public void rtnTar(MouseEvent e) throws IOException{
         TarefaDAO tarDAO = new TarefaDAO();

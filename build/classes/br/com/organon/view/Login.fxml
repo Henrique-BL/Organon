@@ -16,7 +16,7 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.organon.controller.LoginController">
    <left>
-      <VBox alignment="CENTER" prefHeight="425.0" prefWidth="313.0" styleClass="linear-grad" stylesheets="@TelaLogin.css" BorderPane.alignment="CENTER">
+      <VBox alignment="CENTER" prefHeight="425.0" prefWidth="313.0" styleClass="linear-grad" stylesheets="@csstrick.css" BorderPane.alignment="CENTER">
          <children>
             <ImageView fitHeight="280.0" fitWidth="235.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                <image>
@@ -70,7 +70,7 @@
                   <Label fx:id="loginMessageLabel" alignment="CENTER" textAlignment="JUSTIFY" textFill="RED" />
                   <HBox alignment="CENTER">
                      <children>
-                        <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="35.0" prefWidth="80.0" styleClass="button1" stylesheets="@TelaLogin.css" text="Entrar" />
+                        <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="35.0" prefWidth="80.0" styleClass="button1" stylesheets="@csstrick.css" text="Entrar" />
                      </children>
                   </HBox>
                </children>

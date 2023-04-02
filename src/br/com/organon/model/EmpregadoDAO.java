@@ -1,7 +1,10 @@
 
 package br.com.organon.model;
 
-
+import br.com.organon.model.Conexao;
+import br.com.organon.model.Desenvolvedor;
+import br.com.organon.model.Empregado;
+import br.com.organon.model.Gestor;
 import java.sql.*;
 import java.util.ArrayList;
 public class EmpregadoDAO {

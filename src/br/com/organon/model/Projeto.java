@@ -1,6 +1,8 @@
 package br.com.organon.model;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Projeto {
     private int id;
