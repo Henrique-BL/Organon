@@ -16,7 +16,7 @@
             
             Parent root = loader.load(); 
             Scene scene = new Scene(root);
-            stage.setTitle("Organon - Gerencie as tarefas da sua equipe de desenvolvimento");
+            stage.setTitle("Organon - Gerencie seu projeto");
             stage.setScene(scene);
             stage.show();
         }
