@@ -7,7 +7,7 @@
 
 .button1
 {
-    -fx-background-color: #EE534F;
+    -fx-background-color: #6e65ec;
     -fx-text-fill: #ffffff;
 }
 
@@ -28,7 +28,7 @@
 
 .button2
 {
-    -fx-background-color: #EE534F;
+    -fx-background-color: #6e65ec;
     -fx-background-radius: 10;
     -fx-prompt-text-fill:#2262C6;
 }
